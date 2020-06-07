@@ -39,5 +39,3 @@ jobs:
     
     - name: Deploy to Surge
       run: surge ./build qasim29reactapp.surge.sh ${{secrets.SURGE_TOKEN}}
-
-   .
